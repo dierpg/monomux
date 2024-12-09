@@ -16,10 +16,12 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+#include <algorithm>
 #include <chrono>
 #include <iomanip>
 #include <set>
 #include <thread>
+
 
 #include "monomux/adt/POD.hpp"
 #include "monomux/control/PascalString.hpp"
